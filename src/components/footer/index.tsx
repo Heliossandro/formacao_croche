@@ -1,3 +1,3 @@
 export const Footer = () => {
-  return <h1>Footer Component</h1>;
+  return <div className="mt-auto">Footer Component</div>;
 };
