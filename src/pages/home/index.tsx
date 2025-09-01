@@ -77,13 +77,13 @@ export const Home = () => {
       </div>
 
       <div>
-        <img src={VB_croche} alt="vestidoEblusa"  className="max-h-[650px] w-[350px]"/>
+        <img src={VB_croche} alt="vestidoEblusa"  className="hidden sm:block max-h-[650px] w-[350px]"/>
       </div>
     </section>
 
     <section className="flex justify-around items-center p-20 min-h-[700px] gap-20 mt-[-10rem]">
       <div className="flex justify-center items-center flex-col">
-        <h1 className="text-[#B27738] p-8 text-4xl font-bold mb-8"> Para mais Informações</h1>
+        <h1 className="text-[#B27738] text-2xl font-bold mb-8 sm:text-4xl pb-8"> Para mais Informações</h1>
         <a className=" flex justify-center items-center bg-[#CE9455] w-64 h-10 rounded-2xl text-white font-semibold pulse-btn" href="https://wa.me/244943786386?text=Olá! Gostaria de saber mais sobre o curso de crochê.">
         Clica aqui
         </a>
