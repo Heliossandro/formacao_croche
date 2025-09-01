@@ -10,17 +10,16 @@ export const Footer = () => {
       <div>
         <h1 className="font-bold text-2xl sm:text-3xl text-amber-50 pb-4">Contactos</h1>
         <p className="text-amber-50 text-lg sm:text-xl">(+244) 943 786 386</p>
-        <p className="text-amber-50 text-lg sm:text-xl">(+244) 943 786 386</p>
-        <p className="text-amber-50 text-lg sm:text-xl break-all">formacaocroche@gmail.com</p>
+        <p className="text-amber-50 text-lg sm:text-xl">(+244) 926 666 871</p>
+        <p className="text-amber-50 text-lg sm:text-xl break-all">isabelquembuissa17@gmail.com</p>
       </div>
 
       {/* Redes Sociais */}
       <div>
         <h1 className="font-bold text-2xl sm:text-3xl text-amber-50 pb-4">Redes sociais</h1>
         <div className="flex flex-col ">
-          <a className="text-amber-50 text-lg sm:text-xl hover:underline" href="#">Facebook</a>
-          <a className="text-amber-50 text-lg sm:text-xl hover:underline" href="#">Instagram</a>
-          <a className="text-amber-50 text-lg sm:text-xl hover:underline" href="#">Whatsapp</a>
+          <a className="text-amber-50 text-lg sm:text-xl hover:underline" href="https://www.instagram.com/encantos_d_croche?igsh=MWtzZjRwMDc3ZW1lcg== ">Instagram</a>
+          <a className="text-amber-50 text-lg sm:text-xl hover:underline" href="https://wa.me/qr/2IA4K4IMT7XZE1">Whatsapp</a>
         </div>
       </div>
 

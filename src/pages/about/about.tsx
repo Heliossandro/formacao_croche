@@ -7,11 +7,7 @@ export const About = () =>{
       </h1>
 
       <p className="text-gray-700 text-lg max-w-3xl leading-relaxed">
-        O <span className="font-semibold">Encanto do Crochê</span> nasceu com o
-        objetivo de inspirar e capacitar pessoas que desejam aprender e dominar
-        a arte do croché. Acreditamos que, através dessa técnica artesanal, é
-        possível despertar a criatividade, transformar ideias em peças únicas e
-        até mesmo criar novas oportunidades de negócio. <br />
+       Somos a essência da modernidade, e a evolução de uma ideia já solidificada, um amor que floresceu e se materializou há 3 anos no vibrante mercado Angolano. <br />
         <br />
         Nosso compromisso é oferecer uma formação acessível, prática e completa,
         para que cada aluno possa desenvolver suas habilidades e descobrir o

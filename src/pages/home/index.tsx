@@ -41,7 +41,7 @@ export const Home = () => {
                         flex flex-col items-center justify-center rounded-lg shadow-lg p-6">
           <img src={calend} alt="calendar" className="w-20 h-20"/>
           <h1 className="text-[#B27738] text-xl font-semibold text-center mt-4">
-            Dia 6 de Setembro
+            Dia 8 de Setembro
           </h1>
         </div>
 
@@ -84,9 +84,9 @@ export const Home = () => {
     <section className="flex justify-around items-center p-20 min-h-[700px] gap-20 mt-[-10rem]">
       <div className="flex justify-center items-center flex-col">
         <h1 className="text-[#B27738] p-8 text-4xl font-bold mb-8"> Para mais Informações</h1>
-        <button className="bg-[#CE9455] w-64 h-10 rounded-2xl text-white font-semibold pulse-btn">
+        <a className=" flex justify-center items-center bg-[#CE9455] w-64 h-10 rounded-2xl text-white font-semibold pulse-btn" href="https://wa.me/244943786386?text=Olá! Gostaria de saber mais sobre o curso de crochê.">
         Clica aqui
-        </button>
+        </a>
       </div>
     </section>
 

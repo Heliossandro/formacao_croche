@@ -13,12 +13,7 @@ export const Header = () => {
     <div className="text-white fixed top-0 left-0 w-full z-50 shadow-md">
       <div className="bg-[#DFA464] flex items-center justify-between py-4">
         <div className="w-[80%] mx-auto h-[70px] flex items-center justify-between">
-          <img
-            src={logoB}
-            alt="logo"
-            className="w-[12rem] h-[12rem] cursor-pointer"
-            onClick={goHome}
-          />
+          <img src={logoB} alt="logo" className="w-[12rem] h-[12rem] cursor-pointer hidden sm:block" onClick={goHome}/>
           <Navbar />
         </div>
       </div>
