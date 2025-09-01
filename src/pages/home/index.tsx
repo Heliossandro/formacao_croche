@@ -65,7 +65,7 @@ export const Home = () => {
 
     <section className="flex justify-around items-center p-20 min-h-[700px] gap-20">
       <div className="">
-        <h1 className="text-[#B27738] p-8 text-4xl font-bold"> Com a formação vai aprender</h1>
+        <h1 className="text-[#B27738] pb-8 text-3xl sm:text-4xl font-bold"> Com a formação vai aprender</h1>
           <p className="text-3xl text-[#a57644]">Pontos De Base:</p>
           <p className="text-2xl text-gray-700"> Baixissimo</p>
           <p className="text-2xl text-gray-700">  Meio alto</p>
@@ -81,14 +81,18 @@ export const Home = () => {
       </div>
     </section>
 
-    <section className="flex justify-around items-center p-20 min-h-[700px] gap-20 mt-[-10rem]">
-      <div className="flex justify-center items-center flex-col">
-        <h1 className="text-[#B27738] text-2xl font-bold mb-8 sm:text-4xl pb-8"> Para mais Informações</h1>
-        <a className=" flex justify-center items-center bg-[#CE9455] w-64 h-10 rounded-2xl text-white font-semibold pulse-btn" href="https://wa.me/244943786386?text=Olá! Gostaria de saber mais sobre o curso de crochê.">
-        Clica aqui
+    <section className="flex justify-center items-center p-20 min-h-[700px]">
+      <div className="flex justify-center items-center flex-col text-center">
+        <h1 className="text-[#B27738] text-2xl sm:text-4xl font-bold mb-8 pb-8">
+          Para mais Informações
+        </h1>
+        <a
+          className="flex justify-center items-center bg-[#CE9455] w-64 h-10 rounded-2xl text-white font-semibold pulse-btn"
+          href="https://wa.me/244943786386?text=Olá! Gostaria de saber mais sobre o curso de crochê."
+        >
+          Clica aqui
         </a>
       </div>
     </section>
-
     </>
   );};
