@@ -63,21 +63,32 @@ export const Home = () => {
       </div>
     </section>
 
-    <section className="flex justify-around items-center p-20 min-h-[700px] gap-20">
-      <div className="">
-        <h1 className="text-[#B27738] pb-8 text-3xl sm:text-4xl font-bold"> Com a formação vai aprender</h1>
-          <p className="text-3xl text-[#a57644]">Pontos De Base:</p>
-          <p className="text-2xl text-gray-700"> Baixissimo</p>
-          <p className="text-2xl text-gray-700">  Meio alto</p>
-          <p className="text-2xl text-gray-700">  Pontos altos. </p>
-            <br />
-          <p className="text-3xl text-[#a57644]">Projeto final:</p>
-          <p className="text-2xl text-gray-700">  Peça square.</p>
-          <p className="text-2xl text-gray-700">  Elaboração de uma peça a escolha da formanda.</p>
+    <section className="flex flex-col-reverse sm:flex-row items-center sm:justify-around p-6 sm:p-20 min-h-[600px] gap-10 sm:gap-20">
+      <div className="text-center sm:text-left">
+        <h1 className="text-[#B27738] pb-6 text-2xl sm:text-4xl font-bold">
+          Com a formação vai aprender
+        </h1>
+
+        <p className="text-2xl sm:text-3xl text-[#a57644]">Pontos De Base:</p>
+        <p className="text-lg sm:text-2xl text-gray-700">Baixíssimo</p>
+        <p className="text-lg sm:text-2xl text-gray-700">Meio alto</p>
+        <p className="text-lg sm:text-2xl text-gray-700">Pontos altos</p>
+
+        <br />
+
+        <p className="text-2xl sm:text-3xl text-[#a57644]">Projeto final:</p>
+        <p className="text-lg sm:text-2xl text-gray-700">Peça square</p>
+        <p className="text-lg sm:text-2xl text-gray-700">
+          Elaboração de uma peça à escolha da formanda
+        </p>
       </div>
 
-      <div>
-        <img src={VB_croche} alt="vestidoEblusa"  className="hidden sm:block max-h-[650px] w-[350px]"/>
+      <div className="flex justify-center hidden sm:block">
+        <img
+          src={VB_croche}
+          alt="vestidoEblusa"
+          className="max-h-[400px] sm:max-h-[650px] w-[250px] sm:w-[350px]"
+        />
       </div>
     </section>
 
