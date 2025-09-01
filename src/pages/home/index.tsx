@@ -26,7 +26,7 @@ export const Home = () => {
     <section className="bg-gradient-to-b from-[#DFA464] to-[#B27738] flex flex-col justify-center gap-10 py-[8rem]">
       <h1 className="text-white text-3xl md:text-5xl font-bold px-4 flex justify-center pb-15">Informações do curso</h1>
       
-     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 px-8 
+     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 sm:gap-[25rem] md:gap-[8rem] px-8 
                 justify-items-center max-w-7xl mx-auto">
         
         <div className="bg-amber-50 w-[280px] md:w-[300px] lg:w-[340px] h-[320px] 
