@@ -1,16 +1,27 @@
 import { Navbar } from "../navbar";
-import logo from "../../assets/images/logo.png"
+import logoB from "../../assets/images/logoBranco.png";
+import { useNavigate } from "react-router-dom";
 
 export const Header = () => {
+  const navigate = useNavigate();
+
+  const goHome = () => {
+    navigate("/home");
+  };
+
   return (
-    <div className="text-white">
-      <div className="bg-[#9F5C28] flex items-center justify-between py-7 ">
-        <div className="w-[80%] mx-auto flex items-center justify-between ">
-          <div>logo</div>
-           {/* <img src={logo} alt="" /> */}
+    <div className="text-white fixed top-0 left-0 w-full z-50 shadow-md">
+      <div className="bg-[#DFA464] flex items-center justify-between py-4">
+        <div className="w-[80%] mx-auto h-[70px] flex items-center justify-between">
+          <img
+            src={logoB}
+            alt="logo"
+            className="w-[12rem] h-[12rem] cursor-pointer"
+            onClick={goHome}
+          />
           <Navbar />
         </div>
       </div>
-    </div>  
+    </div>
   );
 };

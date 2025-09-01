@@ -3,6 +3,7 @@ import money from"../../assets/icons/money.png"
 import clock from "../../assets/icons/clock.png"
 import calend from "../../assets/icons/calend.png"
 import VB_croche from "../../assets/images/vestidoeBlusa_croche.png"
+import "../../styles/global-css.css";
 
 export const Home = () => {
   return (
@@ -13,7 +14,7 @@ export const Home = () => {
         </h1>
 
         <p className="max-w-7xl text-lg md:text-2xl text-gray-700 px-4 leading-relaxed">
-          Desperte a sua criatividade e domine a arte do croché com uma formação pensada especialmente para si! 
+          Desperte a sua criatividade e domine a arte do crochê com uma formação pensada especialmente para si! 
           Em apenas duas semanas, vai aprender desde os pontos mais básicos até a criação de peças incríveis, 
           como a elegante peça square. Além disso, terá acesso a bónus exclusivos que vão ajudar a transformar 
           o seu talento numa oportunidade de negócio. As vagas são limitadas — não perca a chance de criar, 
@@ -62,8 +63,6 @@ export const Home = () => {
       </div>
     </section>
 
-
- 
     <section className="flex justify-around items-center p-20 min-h-[700px] gap-20">
       <div className="">
         <h1 className="text-[#B27738] p-8 text-4xl font-bold"> Com a formação vai aprender</h1>
@@ -74,11 +73,20 @@ export const Home = () => {
             <br />
           <p className="text-3xl text-[#a57644]">Projeto final:</p>
           <p className="text-2xl text-gray-700">  Peça square.</p>
-          <p className="text-2xl text-gray-700">  Elaboração de projeto de gráficos.</p>
+          <p className="text-2xl text-gray-700">  Elaboração de uma peça a escolha da formanda.</p>
       </div>
 
       <div>
-        <img src={VB_croche} alt="vestidoEblusa" />
+        <img src={VB_croche} alt="vestidoEblusa"  className="max-h-[650px] w-[350px]"/>
+      </div>
+    </section>
+
+    <section className="flex justify-around items-center p-20 min-h-[700px] gap-20 mt-[-10rem]">
+      <div className="flex justify-center items-center flex-col">
+        <h1 className="text-[#B27738] p-8 text-4xl font-bold mb-8"> Para mais Informações</h1>
+        <button className="bg-[#CE9455] w-64 h-10 rounded-2xl text-white font-semibold pulse-btn">
+        Clica aqui
+        </button>
       </div>
     </section>
 
